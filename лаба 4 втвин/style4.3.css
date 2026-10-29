@@ -1,0 +1,40 @@
+body{
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    padding: 10px;
+    border: 2px solid #5A7D9A; 
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    width: 300px;
+    height: auto; 
+    
+}
+
+    .wavy{
+         text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(22, 24, 123);
+    }
+    .dotted{
+         text-decoration-line: underline;
+  text-decoration-style:dotted;
+  text-decoration-color: rgb(199, 168, 85);
+    }
+    .dashed{
+         text-decoration-line: underline;
+  text-decoration-style:dashed;
+  text-decoration-color: rgb(4, 46, 21);
+    }
+    .double{
+         text-decoration-line: underline;
+  text-decoration-style:double;
+  text-decoration-color: red;
+    }

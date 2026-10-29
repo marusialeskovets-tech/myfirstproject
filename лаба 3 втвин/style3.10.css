@@ -1,0 +1,83 @@
+
+.space-composition {
+    position: relative; 
+    width: 600px;
+    height: 400px;
+    background-color: #0a0a1a; 
+    margin: 20px auto;
+    overflow: hidden; 
+}
+
+
+.space-composition img {
+    position: absolute;
+    display: block;
+}
+
+
+.star {
+    width: 12px;
+    z-index: 1;
+}
+.star-1 { top: 30px; left: 80px; }
+.star-2 { top: 160px; right: 120px; }
+.star-3 { bottom: 60px; left: 220px; }
+.star-4 { top: 80px; left: 350px; }
+.star-5 { bottom: 150px; right: 40px; }
+.star-6 { top: 250px; left: 50px; }
+
+
+.striped-planet {
+    top: 40px;
+    left: 180px;
+    width: 120px;
+    z-index: 2; 
+}
+
+
+.blue-planet {
+    top: 70px;
+    left: 50px;
+    width: 170px;
+    z-index: 3; 
+}
+
+
+.sandy-planet {
+    top: 150px;
+    left: 150px;
+    width: 250px;
+    z-index: 4; 
+}
+
+
+.asteroid {
+    top: 70px;
+    right: 80px;
+    width: 60px;
+    z-index: 2; 
+}
+
+
+.rocket {
+    top: 140px;
+    left: 120px;
+    width: 35px;
+    z-index: 5; 
+}
+
+
+.ufo {
+    bottom: 40px;
+    left: 110px;
+    width: 65px;
+    z-index: 5; 
+}
+
+
+.superhero {
+    bottom: 0;
+    right: 30px;
+    width: 50px;
+    z-index: 6; 
+}
